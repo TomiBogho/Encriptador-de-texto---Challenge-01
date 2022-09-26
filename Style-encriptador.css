@@ -1,0 +1,136 @@
+body{
+    background: #F3F5FC;   
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logoAlura{
+    margin: 40px 0 0 50px;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.sec-texto{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.sec-traducido{
+    display: inline-block;
+}
+
+.copiar{
+    position: absolute;
+    bottom: 15%;
+    right: 21%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #E9ECF8;
+    padding: 13px 4%;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.copiar:hover{
+    transform: scale(1.1);
+}
+
+#input-texto{
+    display:block;
+    background-color: #F3F5FC;
+    border: none;
+    border-radius: 25px;
+    color: #0A3871;
+    font-size: 30px;  
+}
+
+#input-texto::placeholder{
+    padding-top: 10%;
+    text-align: center;
+    color:#356EA9;
+}
+
+#mensaje{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 6px #2b292951;
+    position:absolute;
+    display: block;
+    border: none;
+    border-radius: 25px;
+    color: #0A3871;
+    font-size: 30px;
+    right: 10%;  
+}
+
+#mensaje::placeholder{
+    position:relative;
+    padding-block: 50%;
+    background: url(imagenes/texto-muñeco.png);
+    background-repeat:no-repeat;
+    background-position: 50%
+}
+
+.botones{
+    display: inline;
+    margin-left: 15%;
+}
+
+.botones strong{
+    margin-right: 2px;
+    padding-left: 5px;
+    font-size: 18px;
+    color: white;
+    background-color:rgb(39, 69, 103);
+}
+
+.aviso-letras{
+   margin: 0 0 0 20px;
+}
+
+.encriptar{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #0A3871;
+    padding: 13px 10%;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.encriptar:hover{
+    transform:scale(1.1);
+}
+.desencriptar{
+    font-family: 'Quicksand', sans-serif;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    padding: 13px 10%;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.desencriptar:hover{
+    transform: scale(1.1);
+}
+
+.copyright{
+    display: inline-block;
+    position: absolute;
+    bottom: 0%;
+    right:40%;
+    
+}

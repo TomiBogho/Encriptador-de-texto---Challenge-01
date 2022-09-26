@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de texto</title>
+        <link rel="icon" href="imagenes/Logo-alura.png">
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="Style-encriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logoAlura" src="imagenes/Logo-alura.png" alt="Logo Alura"> 
+        </header>
+        <main>
+            <section class="sec-texto">
+                <textarea rows="18" cols="40" id="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="botones">
+                    <p class="aviso-letras"><strong> &#33 </strong> Solo letras minúsculas y sin acentos</p>
+                    <button class="encriptar" onclick="btnEncriptar()"> Encriptar </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()"> Desencriptar </button>           
+                </div>
+            </section>
+            <section class="sec-traducido">
+                <textarea rows="20" cols="40" id="mensaje" placeholder=" "></textarea>
+                <button class="copiar" onclick="copiar()"> Copiar </button>             
+            </section>
+        </main>
+        <script src="script.js"></script>
+        <footer>
+            <p class="copyright">&copy Copyright Tomás Boghossian - 2022</p>
+        </footer>
+
+
+    </body>
+
+
+
+</html>
+

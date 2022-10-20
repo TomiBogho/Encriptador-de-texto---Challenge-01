@@ -4,7 +4,7 @@ const mensaje = document.querySelector("#mensaje");
 
 function encriptar(texto){
     var vocales = ["e","i","a","o","u"];
-    var vocalesEncriptadas = ["enter","imes","ai","obrero","ufatima"];
+    var vocalesEncriptadas = ["enter","imes","ai","oberlai","ufat"];
     texto = texto.toLowerCase();
 
     for(posicion = 0 ; posicion < vocales.length; posicion++){
